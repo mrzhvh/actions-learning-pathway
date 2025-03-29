@@ -12,7 +12,7 @@ jobs:
       - name: Use node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
+          node-version: '22.x'
 
       - run: npm install
       - run: npm run build
@@ -28,7 +28,7 @@ jobs:
       - name: Use node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18.x'
+          node-version: '22.x'
 
       - run: npm install
       - run: npm test
